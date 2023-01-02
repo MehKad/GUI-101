@@ -4,9 +4,9 @@ import javax.swing.*;
 public class Test extends JFrame {
 
    JPanel P1 = new JPanel();
-   JCheckBox ok = new JCheckBox("YES");
-   JCheckBox rb = new JCheckBox("NO");
-   JCheckBox tf = new JCheckBox("CANCEL");
+   JRadioButton ok = new JRadioButton("YES");
+   JRadioButton rb = new JRadioButton("NO");
+   JRadioButton tf = new JRadioButton("CANCEL");
 
    public Test(){
       setTitle("Components");

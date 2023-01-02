@@ -15,7 +15,7 @@ public class Box extends JFrame {
       setTitle("Box Layout");
       setSize(500,300);
       setDefaultCloseOperation(EXIT_ON_CLOSE);
-      setLayout(new BoxLayout(getContentPane(), BoxLayout.X_AXIS));
+      setLayout(new BoxLayout(getContentPane(), BoxLayout.Y_AXIS));
       add(B1);
       add(B2);
       add(B3);
